@@ -12,3 +12,10 @@ function add1(a,b): number {
 function add2(a: number, b: number): number {
     return a + b;
 }
+
+// 함수의 Optional Parameter
+function log(a:string, b?:string) {
+    
+}
+log("Jay")
+log("Jay", "developer")
